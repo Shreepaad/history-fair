@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         orpheus: ['Orpheus', 'sans-serif'], 
-        futura: ['futura medium bt.ttf', 'sans-serif'],
+        futura: ['Futura', 'sans-serif'],
       },
       backgroundImage: {
         'dynatac': "url('./bg1.png')",
