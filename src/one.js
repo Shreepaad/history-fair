@@ -1,30 +1,33 @@
-import logo from './logo.svg';
-// import './App.css';
-import bgImage from './bg.png';
 
 function One() {
   return (
     <div className='bg-[black] h-[screen] font-orpheus'>
                 <div style={{height:"60px", width:"100%", backgroundColor:"black", borderBottom: "1px solid #B3B3B3"}}>
                 <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
-            <div className="flex justify-between items-center h-[60px] text-[2vw] sm:text-[10px] lg:text-[15px] pl-[10vw] pr-[10vw]">
+            <div className="flex justify-between items-center h-[60px] text-[2vw] sm:text-[10px] lg:text-[15px] sm:pl-[10vw] sm:pr-[10vw] pr-[2vw] pl-[2vw]">
             <a href="/" className="text-[white] font-futura" style={{fontWeight:400}}>HOME</a>
             <a href="/prior" className="text-[white] font-futura">PRIOR TECHNOLOGIES</a>
             <a href="/development" className="text-[white] font-futura">DEVELOPMENT</a>
             <a href="/short-term" className="text-[white] font-futura">SHORT-TERM EFFECTS</a>
             <a href="/legacy" className="text-[white] font-futura">LEGACY</a>
+            <a href='https://docs.google.com/document/d/18kxeN3GyDqI-WndIOAV1FvfXbefhKKFjMHSv-Z-eVZM/edit?usp=sharing'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-card-text" viewBox="0 0 16 16">
+  <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+  <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8m0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
+</svg>
+</a>
             </div>
             </div>
                 </div>
                                     <div style={{display:"flex", justifyContent: "center"}}>
-                    <h1 className='text-white font-futura text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] pt-[2vw] pb-[5vw]' style={{fontWeight:1000}}>PRIOR TECHNOLOGIES</h1>
+                    <h1 className='text-white font-futura text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] pt-[2vw] pb-[3vw]' style={{fontWeight:1000}}>PRIOR TECHNOLOGIES</h1>
                     </div>
                 <div style={{gridTemplateColumns:"30% 60%"}} className='grid grid-cols-2 w-[100%] pr-[10vw] pl-[10vw] gap-[10vw]'>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src='radio.webp'></img>
     </div>
                     <div>
-                    <h1 className='text-white sm:text-[40px] lg:text-[60px] text-[min(8vw,40px)]'>Radio
+                    <h1 className='text-white sm:text-[40px] lg:text-[40px] xl:text-[60px] text-[min(8vw,40px)]'>Radio
 </h1>
                 <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px]'>Following the discovery of the phenomenon of radio waves, Italian inventor Guglielmo Marconi began creating a new wireless communication and transmitted the first message to cross the Atlantic from North America in 1902 which proved the practicality of long-distance wireless communication. During World War I, radio was used heavily by the military for communication and the 1920s Radio Boom saw the rapid growth of radio as means of mass communication with radio networks like NBC and CBS. The 1930s-1940s are considered the golden age of radio due to the widespread ownership of radio and the variety of programming, including news, dramas, comedies, and live music.
 
@@ -37,7 +40,7 @@ function One() {
               />
               <div style={{gridTemplateColumns:"60% 30%"}} className='grid grid-cols-2 w-[100%] pr-[10vw] pl-[10vw] gap-[10vw]'>
                     <div>
-                    <h1 className='text-white sm:text-[40px] lg:text-[60px] text-[min(8vw,40px)]'>Telephone
+                    <h1 className='text-white sm:text-[40px] lg:text-[40px] xl:text-[60px] text-[min(8vw,40px)]'>Telephone
 </h1>
                 <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px]'>In 1877, Thomas Edison created the carbon microphone which enhanced the sound clarity and amplification and allowed for more efficient conversion of sound waves into electrical signals. The first commercial telephone exchange in 1878 with switching functions enabled multiple subscribers to connect through a single exchange. The invention of long-distance telephone lines in 1881 made telecommunication more reliable and accessible. In the early 20th century, the telephone saw significant advancements with the introduction of Bell's model 102 telephone, featuring a unified transmitter and receiver in a molded plastic handle. The expansion of the telephone network led to the integration of bells and induction coils into the telephone base, simplifying design and enhancing convenience. Additionally, the inauguration of the TAT-1 cable in 1956 and the first cellular-phone call in 1973 marked important events in the globalization and miniaturization of telecommunications technology.
                 </p>
@@ -121,7 +124,7 @@ function One() {
 
                  <div className="grid grid-cols-2 w-[100%]">
                         <button onClick={() => window.location.href = '/'} className="text-[white] mt-[5vw] mb-[4vw] text-[1.25vw] bg-[black] font-futura text-[2vw] sm:text-[10px] lg:text-[15px] text-left ml-[8vw]">← HOME</button>
-                        <button onClick={() => window.location.href = '/development'} className="text-[white] mt-[5vw] mb-[4vw] text-[1.25vw] bg-[black] text-right mr-[8vw] font-futura text-[2vw] sm:text-[10px] lg:text-[15px]">PRIOR TECHNOLOGIES →</button>
+                        <button onClick={() => window.location.href = '/development'} className="text-[white] mt-[5vw] mb-[4vw] text-[1.25vw] bg-[black] text-right mr-[8vw] font-futura text-[2vw] sm:text-[10px] lg:text-[15px]">DEVELOPMENT   →</button>
                         </div>
     </div>
   );

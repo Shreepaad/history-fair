@@ -4,7 +4,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactDOM from "react-dom";
 import One from './one';
+import Two from './two';
+import Three from './three';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Four from './four';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +17,9 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="prior" element={<One />} />
-        {/* <Route path="upload" element={<Upload />} /> */}
+        <Route path="development" element={<Two />} />
+        <Route path="short-term" element={<Three />} />
+        <Route path="legacy" element={<Four />} />
       </Routes>
     </BrowserRouter>
   // </React.StrictMode>
