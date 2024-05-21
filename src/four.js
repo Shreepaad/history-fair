@@ -33,7 +33,7 @@ function Four() {
             <a href="/prior" className="text-[white] font-futura">PRIOR TECHNOLOGIES</a>
             <a href="/development" className="text-[white] font-futura">DEVELOPMENT</a>
             <a href="/short-term" className="text-[white] font-futura">SHORT-TERM EFFECTS</a>
-            <a href="/legacy" className="text-[white] font-futura">LEGACY</a>
+            <a href="/legacy" className="text-[white] font-futura" style={{fontWeight:1000}}>LEGACY</a>
             <a href='https://docs.google.com/document/d/18kxeN3GyDqI-WndIOAV1FvfXbefhKKFjMHSv-Z-eVZM/edit?usp=sharing'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-card-text" viewBox="0 0 16 16">
   <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>

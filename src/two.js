@@ -31,7 +31,7 @@ function Two() {
             <div className="flex justify-between items-center h-[60px] text-[2vw] sm:text-[10px] lg:text-[15px] sm:pl-[10vw] sm:pr-[10vw] pr-[2vw] pl-[2vw]">
             <a href="/" className="text-[white] font-futura" style={{fontWeight:400}}>HOME</a>
             <a href="/prior" className="text-[white] font-futura">PRIOR TECHNOLOGIES</a>
-            <a href="/development" className="text-[white] font-futura">DEVELOPMENT</a>
+            <a href="/development" className="text-[white] font-futura" style={{fontWeight:1000}}>DEVELOPMENT</a>
             <a href="/short-term" className="text-[white] font-futura">SHORT-TERM EFFECTS</a>
             <a href="/legacy" className="text-[white] font-futura">LEGACY</a>
             <a href='https://docs.google.com/document/d/18kxeN3GyDqI-WndIOAV1FvfXbefhKKFjMHSv-Z-eVZM/edit?usp=sharing'>

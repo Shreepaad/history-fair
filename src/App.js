@@ -32,7 +32,7 @@ function App() {
               <div style={{height:"60px", width:"100%", backgroundColor:"black", borderBottom: "1px solid #B3B3B3"}}>
               <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center h-[60px] text-[2vw] sm:text-[10px] lg:text-[15px] sm:pl-[10vw] sm:pr-[10vw] pr-[2vw] pl-[2vw]">
-          <a href="/" className="text-[white] font-futura" style={{fontWeight:400}}>HOME</a>
+          <a href="/" className="text-[white] font-futura" style={{fontWeight:1000}}>HOME</a>
           <a href="/prior" className="text-[white] font-futura">PRIOR TECHNOLOGIES</a>
           <a href="/development" className="text-[white] font-futura">DEVELOPMENT</a>
           <a href="/short-term" className="text-[white] font-futura">SHORT-TERM EFFECTS</a>

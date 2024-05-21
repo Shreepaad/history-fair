@@ -32,7 +32,7 @@ function Three() {
             <a href="/" className="text-[white] font-futura" style={{fontWeight:400}}>HOME</a>
             <a href="/prior" className="text-[white] font-futura">PRIOR TECHNOLOGIES</a>
             <a href="/development" className="text-[white] font-futura">DEVELOPMENT</a>
-            <a href="/short-term" className="text-[white] font-futura">SHORT-TERM EFFECTS</a>
+            <a href="/short-term" className="text-[white] font-futura" style={{fontWeight:1000}}>SHORT-TERM EFFECTS</a>
             <a href="/legacy" className="text-[white] font-futura">LEGACY</a>
             <a href='https://docs.google.com/document/d/18kxeN3GyDqI-WndIOAV1FvfXbefhKKFjMHSv-Z-eVZM/edit?usp=sharing'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-card-text" viewBox="0 0 16 16">
