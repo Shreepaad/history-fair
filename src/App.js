@@ -54,7 +54,7 @@ function App() {
                 <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] pl-[50%]'>In response to the limitations of landline communication, the invention of the mobile cell phone in 1983 revolutionized connectivity, enabling instantaneous remote communication across industries and sectors. It facilitated seamless interactions, transforming business operations and enhancing law enforcement's information gathering. Simultaneously, it sparked a new era of personal connectivity, allowing new interactions, reducing costs, and saving time, ultimately contributing to a more interconnected world.
                 </p>
                 </div>
-                <button style={{bottom: isOverflowing ? "" : "0px", paddingBottom: isOverflowing ? "3vw" : "", paddingTop: isOverflowing ? "3vw" : ""}} onClick={() => window.location.href = '/prior'} className='absolute text-white right-0 mr-[8vw] mb-[4vw] font-futura text-[2vw] sm:text-[10px] lg:text-[15px]'>PRIOR TECHNOLOGIES →</button>
+                <button style={{bottom: isOverflowing ? "" : "0px", paddingBottom: isOverflowing ? "3vw" : "", paddingTop: isOverflowing ? "5vw" : ""}} onClick={() => window.location.href = '/prior'} className='absolute text-white right-0 mr-[8vw] mb-[4vw] font-futura text-[2vw] sm:text-[10px] lg:text-[15px]'>PRIOR TECHNOLOGIES →</button>
               </div>
               {/* <div className="grid grid-cols-2 w-[100%]">
                         <div className="justify-center text-[white] pt-[1vw] pb-[3vw] text-[1.25vw] bg-[black] pl-[5vw]"></div>
