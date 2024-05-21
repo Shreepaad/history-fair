@@ -20,7 +20,7 @@ function App() {
 
               </div>
               <div style={{backgroundImage:"url('./bg.png')", height:"calc(100vh - 60px)", backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"40%"}}>
-                <div  className = "sm:pt-[20vh] pt-[10vh]" style={{paddingRight:"8vw"}}>
+                <div  className = "xl:pt-[20vh] pt-[5vh]" style={{paddingRight:"8vw"}}>
                 <h1 className='text-white sm:text-[40px] lg:text-[60px] text-[min(8vw,40px)] pl-[50%]'>The invention of the mobile cell phone
 </h1>
                 <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] pl-[50%]'>In response to the limitations of landline communication, the invention of the mobile cell phone in 1983 revolutionized connectivity, enabling instantaneous remote communication across industries and sectors. It facilitated seamless interactions, transforming business operations and enhancing law enforcement's information gathering. Simultaneously, it sparked a new era of personal connectivity, allowing new interactions, reducing costs, and saving time, ultimately contributing to a more interconnected world.
