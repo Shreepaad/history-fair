@@ -39,7 +39,7 @@ function One() {
                     <div>
                     <h1 className='text-white sm:text-[40px] lg:text-[60px] text-[min(8vw,40px)]'>Telephone
 </h1>
-                <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px]'>In response to the limitations of landline communication, the invention of the mobile cell phone in 1983 revolutionized connectivity, enabling instantaneous remote communication across industries and sectors. It facilitated seamless interactions, transforming business operations and enhancing law enforcement's information gathering. Simultaneously, it sparked a new era of personal connectivity, allowing new interactions, reducing costs, and saving time, ultimately contributing to a more interconnected world.
+                <p className='text-[#FFFFFFB3] text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px]'>In 1877, Thomas Edison created the carbon microphone which enhanced the sound clarity and amplification and allowed for more efficient conversion of sound waves into electrical signals. The first commercial telephone exchange in 1878 with switching functions enabled multiple subscribers to connect through a single exchange. The invention of long-distance telephone lines in 1881 made telecommunication more reliable and accessible. In the early 20th century, the telephone saw significant advancements with the introduction of Bell's model 102 telephone, featuring a unified transmitter and receiver in a molded plastic handle. The expansion of the telephone network led to the integration of bells and induction coils into the telephone base, simplifying design and enhancing convenience. Additionally, the inauguration of the TAT-1 cable in 1956 and the first cellular-phone call in 1973 marked important events in the globalization and miniaturization of telecommunications technology.
                 </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -48,46 +48,72 @@ function One() {
                 </div>
 
 
-<div className='pr-[10vw] pl-[10vw] mt-[10vw]'>
+                <img
+                src="arrow.png"
+                className="w-[40vw] h-[10vw] mt-[3vw] mb-[3vw] ml-[30%]" style={{transform:"scaleX(-1)"}}
+              />
 
-                <ol class="items-center sm:flex">
-    <li class="relative mb-6 sm:mb-0">
-        <div class="flex items-center">
-            <div class="z-10 flex items-center justify-center w-6 h-6 bg-[#b3b3b3] rounded-full shrink-0">
-            </div>
-            <div class="hidden sm:flex w-full h-0.5 bg-[white]"></div>
-        </div>
-        <div class="mt-3 sm:pe-8">
-            <h3 class="text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-            <time class="block mb-2 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-            <p class="text-base font-normal text-[#b3b3b3]">Get started with dozens of web components and interactive elements.</p>
-        </div>
+<div className='pr-[10vw] pl-[10vw] mt-[5vw]'>
+
+                
+<ol class="relative border-s border-[#b3b3b3]">                  
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full mt-1.5 -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">1983</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">DynaTAC 8000x</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">DynaTAC 8000x, also known as the brick, was invented in 1983, it weighed 1.75 lbs, took 10 hours to charge and only gave 30 minutes of talk time. Additionally, the usage was limited as it could only remember 30 phone numbers and cost 4,000 dollars. However, this was a step in the right direction as this was the first cellular device which did not require a constant supply of energy from something like a car engine.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
     </li>
-    <li class="relative mb-6 sm:mb-0">
-        <div class="flex items-center">
-            <div class="z-10 flex items-center justify-center w-6 h-6 bg-[#b3b3b3] rounded-full shrink-0">
-            </div>
-            <div class="hidden sm:flex w-full h-0.5 bg-[white]"></div>
-        </div>
-        <div class="mt-3 sm:pe-8">
-            <h3 class="text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.0</h3>
-            <time class="block mb-2 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time>
-            <p class="text-base font-normal text-[#b3b3b3]">Get started with dozens of web components and interactive elements.</p>
-        </div>
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">1989</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">MicroTAC 9800x</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">MicroTAC 9800x made in 1989 was a significant improvement from the previous models as it only weighs 12.3 ounces and was small enough to fit into a shirt pocket. Still quite limited in the usage the MicroTAC continued the progress of its predecessor as it continued to shrink and become more available to the public.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
     </li>
-    <li class="relative mb-6 sm:mb-0">
-        <div class="flex items-center">
-            <div class="z-10 flex items-center justify-center w-6 h-6 bg-[#b3b3b3] rounded-full shrink-0">
-            </div>
-            <div class="hidden sm:flex w-full h-0.5 bg-[white]"></div>
-        </div>
-        <div class="mt-3 sm:pe-8">
-            <h3 class="text-[min(3.3vw,15px)] sm:text-[15px] lg:text-[20px] font-semibold text-gray-900 dark:text-white">Flowbite Library v1.3.0</h3>
-            <time class="block mb-2 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time>
-            <p class="text-base font-normal text-[#b3b3b3]">Get started with dozens of web components and interactive elements.</p>
-        </div>
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full mt-1.5 -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">1992</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nokia Model 1011</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">Nokia model 1011 was the first phone not produced by Motorola, marking the beginning of the opening of the market. With dimensions of 195 by 60 by 45 mm it was known as the candy bar phone which also introduced the ability to send SMS messages, only adding to the usages of a phone.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
+    </li>
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full mt-1.5 -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">1992</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">IBM's Simon</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">IBM's Simon, introduced the now essential touch screen to phones, making it the first “smartphone”. It also introduced a new feature as applications such as an address book, calendar and calculator among others which weren’t available to the public. However, this wasn’t enough to become a dominant contender in the cell phone market as it still lacked some functionality.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
+    </li>
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full mt-1.5 -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">1996</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Motorola's StarTAC</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">Motorola’s StarTAC, the predecessor of the MicroTAC was 3.1 oz and advertised as a “wearable” phone. It introduced many new features like the vibrate function. It was the first flip phone and due to its small size and lightweight became popular among consumers for multiple years.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
+    </li>
+    <li class="mb-5 ms-4">
+        <div class="absolute w-3 h-3 bg-[#b3b3b3] rounded-full mt-1.5 -start-1.5 border border-[#b3b3b3]"></div>
+        <time class="mb-1 text-sm font-futura leading-none text-gray-400 dark:text-gray-500">2007</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Apple & Android</h3>
+        <p class="mb-2 text-base font-normal text-[#b3b3b3]">The two tech giants we think of today, Apple and Android, didn’t join the cell phone market until 2007, over two decades after the first cell phone was introduced. Both these companies are tech giants, which continue to control the market today, had different views on where the development of phones would go. Apple focused on adding features, like iTunes and iMessages, while Android focused on allowing its users to create as much as they wanted.</p>
+        {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg></a> */}
     </li>
 </ol>
+
+
 
 
 </div>
